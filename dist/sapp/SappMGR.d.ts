@@ -9,8 +9,10 @@ export declare class SappLayoutOptions {
     container?: string | HTMLElement;
     className?: string;
     style?: Partial<HTMLElement['style']>;
+    doStart?: ((app: Sapp) => void);
     doShow?: ((app: Sapp) => void);
     doHide?: ((app: Sapp) => void);
+    doClose?: ((app: Sapp) => void);
     showClassName?: string;
     showStyle?: Partial<HTMLElement['style']>;
     hideClassName?: string;
