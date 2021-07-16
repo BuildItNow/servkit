@@ -1,3 +1,7 @@
+# NOTE
+**DEPRECATED**
+请访问[QH-CUSTOM-TFE/servkit](https://github.com/QH-CUSTOM-TFE/servkit)
+
 # servkit
 主-从 应用架构的一种实现，目的是通过主应用提供的标准接口来实现从应用二次开发（二方/三方），以实现主应用的平台性开放能力。
 
